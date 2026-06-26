@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    
+<header class="w-full bg-black text-white px-2 lg:px-10 py-5 flex items-center justify-between font-sans">
+  <div class="flex items-center gap-4">
+<img src="../image/Logo (7).png" alt="">
+  </div>
+
+  <div class="hidden  md:flex items-center gap-10 text-sm font-semibold tracking-wide">
+    <a href="../index.html" class="text-white hover:text-blue-400 transition-colors">Home</a>
+    <a href="./page1.html" class="text-white hover:text-blue-400 transition-colors">Services</a>
+    <a href="./page2.html" class="text-white hover:text-blue-400 transition-colors">Careers</a>
+    <a href="./page3.html" class="text-white border-b-2 border-b-blue-400 transition-colors">Career Details</a>
+    <a href="#" class="text-white hover:text-blue-400 transition-colors">Contact</a>
+  </div>
+
+  <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm px-6 py-3 rounded-xl transition-all shadow-md">
+    Contact Us
+  </a>
+</header> 
+
+<section class="w-full relative overflow-hidden select-none font-sans">
+  <!-- Контейнер для баннера с фиксированной высотой или соотношением сторон -->
+  <div class="relative h-[280px] md:h-[340px] w-full flex items-center justify-center">
+    
+    <!-- Фоновое изображение макета image_cb8bbf.png -->
+    <img 
+      src="../imgq2sek/80df93300850e4ae83fe70b8668d6f4eb8bac384.png" alt="Web Design Background" class="absolute inset-0 w-full h-full object-cover"
+    >
+    
+    <!-- Затемняющий оверлей для читаемости текста -->
+    <div class="absolute inset-0 bg-black/50 z-0"></div>
+
+    <!-- Контентная часть -->
+    <div class="relative z-10 flex flex-col items-center gap-6 px-4 text-center">
+      <h1 class="text-3xl md:text-5xl font-bold tracking-wider text-white uppercase">
+        Web Designer
+      </h1>
+      
+      <button class="bg-[#2563eb] hover:bg-blue-700 text-white rounded-xl px-10 py-3.5 text-xs font-medium tracking-wide transition shadow-lg shadow-blue-600/10">
+        Apply Now
+      </button>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
