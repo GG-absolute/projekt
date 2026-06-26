@@ -250,6 +250,9 @@
   .top-12 {
     top: calc(var(--spacing) * 12);
   }
+  .top-\[-40px\] {
+    top: -40px;
+  }
   .top-\[-50px\] {
     top: -50px;
   }
